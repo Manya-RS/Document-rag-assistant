@@ -121,10 +121,9 @@ Activate it on Windows:
 venv\Scripts\activate
 3. Install dependencies
 pip install -r requirements.txt
+
 4. Configure the Gemini API key
-
 Create a .env file:
-
 GEMINI_API_KEY=your_api_key_here
 
 Do not commit the .env file.
@@ -248,7 +247,6 @@ The workflow separates retrieval, reranking, and generation into modular stages.
 Sensitive configuration is stored in environment variables.
 
 The following are intentionally excluded from version control:
-
 .env
 venv/
 vectorstore/
@@ -258,7 +256,6 @@ __pycache__/
 Never place API keys directly inside source code or commit them to GitHub.
 
 🎯 Project Goal
-
 The project demonstrates a production-style RAG pipeline capable of ingesting documents, creating vector indexes, retrieving relevant context, reranking results, and generating grounded answers through an API and interactive frontend.
 
 👩‍💻 Author
