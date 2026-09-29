@@ -1,4 +1,4 @@
-@'
+
 # 📄 Document RAG Assistant
 
 An AI-powered document question-answering assistant built using **Retrieval-Augmented Generation (RAG)**.
@@ -51,7 +51,7 @@ FastAPI API
                 │
                 ▼
           Answer + Sources
-```
+
 📁 Project Structure
 ShadowFox-Task3/
 │
@@ -95,6 +95,7 @@ ShadowFox-Task3/
 ├── requirements.txt
 ├── .env
 └── README.md
+```
 
 🛠️ Tech Stack
 Technology	Purpose
@@ -131,9 +132,7 @@ Do not commit the .env file.
 5. Start the FastAPI backend
 uvicorn app.main:app --reload
 
-API:
-
-http://127.0.0.1:8000
+API: http://127.0.0.1:8000
 
 Swagger documentation:
 
