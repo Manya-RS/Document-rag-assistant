@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+pydantic
+langgraph
+faiss-cpu
+python-dotenv
+google-genai
+pypdf
