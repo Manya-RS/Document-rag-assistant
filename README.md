@@ -51,7 +51,8 @@ FastAPI API
                 │
                 ▼
           Answer + Sources
-          📁 Project Structure
+```
+📁 Project Structure
 ShadowFox-Task3/
 │
 ├── app/
@@ -94,6 +95,7 @@ ShadowFox-Task3/
 ├── requirements.txt
 ├── .env
 └── README.md
+
 🛠️ Tech Stack
 Technology	Purpose
 Python	Core development
